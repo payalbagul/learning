@@ -371,4 +371,25 @@ else:
     a+=int(input('enter no'))
     b+=1
  print('addition',a)
-    
+
+
+# program fo min max sum avg
+a=int(input("how many no. you want to enter\n"))
+b=1 
+d=0
+f=min=max=int(input("Enter no."))
+while b<a:
+    c=0
+    c=int(input("Enter no."))
+    if c>max:
+        max=c
+    if c<min:
+        min=c
+    d+=c
+    b+=1 
+d+=f
+print("sum ",d)
+e=d/a 
+print("average ",e)
+print("max ",max)
+print("min ",min)
