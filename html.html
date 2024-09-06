@@ -1,17 +1,13 @@
-this is my python program 
+#THIS IS PROGRAM WHICH I RUN 
 
-print("\t\tresume\n")
-print("name\t\t *payal bagul")
-print("mobile no\t 9730104315")
-print("age\t\t 19")
-print("email id\t payalbagul26@gamil.com")
-
+#TRANGLE OF STAR
 print("\n*")
 print("*" * 2)
 print("*" * 3)
 print("*" * 4)
 print("*" * 5)
 
+# DATA TYPE AND CONVERTING THEM
 a = 9
 b = 1
 c = 2
@@ -30,7 +26,7 @@ print(e)
 print(type(e))
 print(float(e))
 
-
+#5 INPUT AND THERE CONVERSION ON OTHER DATA TYPE
 print("\nint in complex",complex(a))
 print("int in complex",complex(b))
 print("int in complex",complex(c))
@@ -42,21 +38,16 @@ print("int in string",str(b))
 print("int in string",str(c))
 print("int in string",str(d))
 print("int in string",str(e))
-
 f=True
 g=False
 
 
-
-
-
-# payal : input program
+# ADDITON OF DIFFERENT TYPE OF DATA
 a = int(input("Enter number"))
 b = int(input("Enter number"))
 c = int(input("Enter number"))
 d = int(input("Enter number"))
 e = int(input("Enter number"))
-
 print(a+b+c+d+e)
 
 f = input("Enter string")
@@ -64,7 +55,6 @@ g = input("Enter string")
 h = input("Enter string")
 i = input("Enter string")
 j = input("Enter string")
-
 print(f+g+h+i+j)
 
 k = complex(input("Enter complex number"))
@@ -72,7 +62,6 @@ l = complex(input("Enter complex number"))
 m = complex(input("Enter complex number"))
 n = complex(input("Enter complex number"))
 o = complex(input("Enter complex number"))
-
 print(k+l+m+n+o)
 
 p = float(input("Enter float number"))
@@ -80,14 +69,9 @@ q = float(input("Enter float number"))
 r = float(input("Enter float number"))
 s = float(input("Enter float number"))
 t = float(input("Enter float number"))
-
 print(p+q+r+s+t)
 
-
-
-
-
-
+#OPERATOR BASIC ARITHMATIC 
 a=int(input('enter noumber : '))
 b=int(input('enter noumber : '))
 print('using + operater ',a+b)
@@ -97,8 +81,7 @@ print('using / operater ',a/b)
 print('using % operater ',a%b)
 print('using // operater ',a//b)
 
-
-
+#MARKS AND PERSENTAGE
 a=int(input('enter marks of 1 subject : '))
 b=int(input('enter marks of 2 subject : '))
 c=int(input('enter marks of 2 subject : '))
@@ -109,27 +92,21 @@ per=total/500*100
 print('total marks :',total)
 print('percentage : ',per)
 
+# CONVERT INTO DEGREE 
 a=int(input('enter number : '))
 b=(a * 9/5) + 32 
 print(b)
 
-
-
-
-
-
+#HOUR INTO DAY AND HOURS
 a=int(input('enter no'))
 b=a%24
 c=a//24
-
 print('day',c)
 print('hours',b)
 
-
-
+#CONPARISION OPERATOR
 a=int(input('enter the number'))
 b=int(input('enter the number'))
-
 print('using > operater',a>b)
 print('using < operater',a<b)
 print('using == operater',a==b)
@@ -137,21 +114,16 @@ print('using >= operater',a>=b)
 print('using <= operater',a<=b)
 print('using != operater',a!=b)
 
-
+#USE OF AND , OR OPERATOR
 a=int(input('enter the number'))
 b=int(input('enter the number'))
 c=int(input('enter the number'))
 d=int(input('enter the number'))
 e=int(input('enter the number'))
-
-
 print('if all no. is grater then 50 then it will print true \n ',a>50 and b>50 and c>50 and d>50 and e>50)
 print('if any  no. is grater then 50 then it will print true \n  ',a>50 or b>50 or c>50 or d>50 or e>50)
 
-
-
-
-  # bitwise operator
+# bitwise operator
 h=int(input("enter number "))
 b=int(input("enter number "))
 
@@ -163,7 +135,7 @@ print('using | operator',h|b)
 print('using ^ operator',h^b)
 
 
-  #3digit input addition
+#3digit input addition
 a=int(input('enter three digit number'))
 c=int(input('enter three digit number'))
 b=int(input('enter three digit number'))
@@ -175,22 +147,19 @@ print(d)
 a=int(input('enter inch'))
 print('in feet',a/12)
 
-  #adding gst in bill 
+#adding gst in bill 
 a=int(input('enter the bill'))
 a+=(18/100)*a
 print('bill after adding 18% gst',a)
 
-  #gst 3rd program
+#GST + AMOUNT =TOTAL
 a=int(input('enter the bill'))
 b=a
 a-=(18/100)*a
 print('bill after adding 18% gst then bill is ',a)
 c=b-a
 
-
-
-
-  #list 
+#list 
 a=[12,23,34,45,56,67,78,89,90]
 b=[12,23,34,45,56,67,78,89,90]
 
@@ -219,11 +188,7 @@ b.pop()
 a.remove(12)
 print(a)
 
-
-
-
-
-  #list second day
+#list second day
 a=[1,2,3,4,5,6,7,8]
 print(a)
 a.insert(8,9)
@@ -234,8 +199,7 @@ a.clear()
 print(a)
 print('bill after adding 18% gst is ',c)
 
-
-  #list product
+#list product
 a=['cpu','mouse','monitor','printer','speaker']
 b=[5,5,5,5,5]
 c=[7000,200,3000,5000,4000]
@@ -298,7 +262,7 @@ print("\n\n total bill  is ",b[0]*c[0]+b[1]*c[1]+b[2]*c[2]+b[3]*c[3]+b[4]*c[4])
 
 
 
-  #set list operation
+#set list operation
 a={1,2,3,4,5}
 b={4,5,6,7,8}
 c={3,4,5,6,7,8,9}
@@ -393,3 +357,12 @@ e=d/a
 print("average ",e)
 print("max ",max)
 print("min ",min)
+
+
+# PROGRAM FOR ADDTION OF DIGIT      
+n=int(input('enter no. for digit addition'))
+sum = 0
+while n > 0:
+    sum += n % 10
+    n //= 10
+print(sum) 
