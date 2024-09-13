@@ -400,3 +400,59 @@ a=0
 while a<1000:
     a=a+int(input("enter no")) 
     print(a)
+
+
+
+#program for addition of user given matrix
+a=[]
+b=[]
+c=0
+while c<3:
+    a.append([])
+    print('')
+    d=0
+    while d<3:
+        a[c].append(int(input("enter number : ")))
+        d+=1 
+    c+=1
+c=0
+while c<3:
+    b.append([])
+    print('')
+    d=0
+    while d<3:
+        b[c].append(int(input("enter number : ")))
+        d+=1 
+    c+=1
+
+print("first matric")
+c=0
+while c<3:
+    d=0
+    while d<3:
+        print(a[c][d],end="\t")
+        d+=1
+    print('\n')
+    c+=1
+    
+    print("second matric")
+c=0
+while c<3:
+    d=0
+    while d<3:
+        print(b[c][d],end="\t")
+        d+=1
+    print('\n')
+    c+=1
+
+print("addition of matric")
+c=0
+while c<3:
+    d=0
+    while d<3:
+        print(a[c][d]+b[c][d],end="\t")
+        d+=1
+    print('\n')
+    c+=1
+
+
