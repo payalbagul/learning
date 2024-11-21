@@ -650,12 +650,18 @@ json to python vice
 try: 
      a=int(input ("enter no"))
      if a%2==0:
+     raise nameError
+     
        print ("even")
      else:
        print ("odd")
 except :
      print ("enter correct number")
-      
+else ://if successfully done
+     print("done")
+finally ://after its done
+     print("thanks")
+     
 
 
       
